@@ -1,21 +1,17 @@
-import 'dart:js_util';
-
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
-import 'package:hexcolor/hexcolor.dart';
 
-void main() => runApp(MaterialApp(
+main() => runApp(MaterialApp(
       title: 'Flutter Demo',
-      home: loginScreen(),
+      home: LoginScreen(),
     ));
 
-class loginScreen extends StatefulWidget {
+class LoginScreen extends StatefulWidget {
   @override
   _loginScreenState createState() => _loginScreenState();
 }
 
 // ignore: camel_case_types
-class _loginScreenState extends State<loginScreen> {
+class _loginScreenState extends State<LoginScreen> {
   // Color color=new Color(hexToInt("FFB74093"));
   @override
   Widget build(BuildContext context) {
@@ -23,10 +19,7 @@ class _loginScreenState extends State<loginScreen> {
       child: Scaffold(
           backgroundColor: Color.fromARGB(30, 32, 0, 75),
           body: Column(
-            children: [
-              Padding(padding:,)
-              Text('sdfgsdgssfs', style: TextStyle(color: HexColor('#2c2c3d')))
-            ],
+            children: [],
           )),
     );
   }
