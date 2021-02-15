@@ -99,8 +99,7 @@ class _RegScreenState extends State<RegScreen> {
                               padding: EdgeInsets.only(
                                   left: 80, right: 00, top: 44)),
                           cercel(),
-                           padding: EdgeInsets.only(
-                                  left: 80, right: 00, top: 44),
+
                           cercel(),
                           //  Padding(padding: EdgeInsets.only(top: 00)),
                         ],
