@@ -35,8 +35,7 @@ class _loginScreenState extends State<LoginScreen> {
                             cercel(),
                             Padding(
                                 padding: EdgeInsets.only(left: 22, top: 400)),
-                            cercel(),
-                            Padding(padding: EdgeInsets.only(left: 22)),
+                            Padding(padding: EdgeInsets.only(left: 200)),
                             cercel(),
                           ],
                         ),
@@ -58,7 +57,7 @@ class _loginScreenState extends State<LoginScreen> {
 
   Widget cercel() {
     return CircleAvatar(
-      radius: 50,
+      radius: 30,
       backgroundColor: Color.fromRGBO(133, 36, 227, 1),
       child: Container(
         //  alignment: Alignment.bottomRight,
